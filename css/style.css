@@ -1,0 +1,172 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.container1{
+    display: flex;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.pexels.com/photos/196656/pexels-photo-196656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    height: 86vh;
+}
+
+.animated{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+
+.animated .item li {
+    list-style: none;
+}
+
+.animated .item li a{
+    text-decoration: none;
+    color: rgba(190, 198, 206, 0.938);
+    font-size: 20px;
+    border-radius: 50%;
+    border-color: rgba(190, 198, 206, 0.938);
+    border-style: solid;
+    padding: 20px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.intro .title{
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 80px;
+    padding: 10px;
+    margin: 5px;
+}
+.intro .faded{
+    color: rgba(190, 198, 206, 0.938);
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+.btns{
+    padding: 10px;
+    margin: 5px;
+}
+.btns a{
+    font-size: 16px;
+    text-decoration: none;    
+}
+
+.btn1{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 50%;
+}
+
+.btn2{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(0, 170, 28);
+    color: white;
+    border: 2px solid rgb(21, 163, 2);
+    border-radius: 50%;
+}
+
+.images{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.images img{
+    width: 224px;
+}
+
+.container2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vid{
+    width: 45%;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.vid img{
+    width: 80%;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px 10px #888888;
+    width: 45%;
+}
+
+.head{
+    font-size: 23px;
+    padding: 10px;
+}
+
+.desc{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.container3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-sec{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards-sec .a {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.cards-sec .a:hover{
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.first{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.second{
+    font-size: 16px;
+}
+
+.img-sec{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.img-sec img{
+    width: 60%;
+}
+
+
